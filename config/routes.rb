@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   # get 'comments/destroy'
 
   resources :boards
-  resources :comments, only: %i[create, destroy]
+  resources :comments, only: %i[create destroy]
 end
